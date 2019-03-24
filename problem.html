@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<!--
+	Relativity by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+<head>
+	<title>Problem Landscape</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<html lang="en">
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/radar.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/patterns.js"></script>
+</head>
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper"> 
+
+		<!-- Header -->
+		<header id="header" class="alt">
+
+			<!-- Logo -->
+			<div class="logo">
+				<a href="index.html"><strong>Salmon Farming</strong> </a>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li>
+						<a href="#" class="icon fa-angle-down">Content</a>
+						<ul>
+							<li><a href="problem.html">Problem Landscape</a></li>
+							<li><a href="solution.html">Solution Landscape</a></li>
+							<li><a href="levers.html">Lessons and Levers of Change</a></li>
+						</ul>
+					</li>
+
+				</ul>
+			</nav>
+
+		</header>
+
+		<!-- Section -->
+		<section class="main alt">
+			<header>
+				<h1>Problem Landscape</h1>
+				<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue. Sed consequat amet dolor magna consequat. Lorem ipsum dolor amet nullam sed etiam veroeros.</p>
+			</header>
+			<div class="inner style2">
+				<div class="image main" data-position="center"><img src="images/problemsbanner.jpg" alt="" /></div>
+				<h3>History</h3>
+				<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
+				<hr class="major" />
+				<img class="image main" data-position="center" src="images/problems1.png" alt="" />
+				<h3>Size</h3>
+				<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
+				<hr class="major" />
+				<div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+				<!-- amCharts javascript code -->
+				<script type="text/javascript">
+					AmCharts.makeChart("chartdiv",
+					{
+						"type": "radar",
+						"categoryField": "Issue",
+						"colors": [
+						"#4a98e2",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000",
+						"#000000"
+						],
+						"startDuration": 2,
+						"borderColor": "#4A98E2",
+						"color": "#4A98E2",
+						"fontSize": 13,
+						"theme": "patterns",
+						"graphs": [
+						{
+							"bullet": "round",
+							"bulletSize": 9,
+							"id": "AmGraph-1",
+							"lineAlpha": 1,
+							"lineThickness": 2,
+							"minBulletSize": 0,
+							"valueField": ""
+						}
+						],
+						"guides": [],
+						"valueAxes": [
+						{
+							"axisTitleOffset": 20,
+							"gridType": "circles",
+							"id": "ValueAxis-1",
+							"minimum": 0,
+							"axisAlpha": 0.54,
+							"axisColor": "#4A98E2",
+							"dashLength": 3,
+							"gridAlpha": 0.51,
+							"gridColor": "#4A98E2"
+						},
+						{
+							"id": "ValueAxis-2",
+							"minMaxMultiplier": -18,
+							"axisColor": "#4A98E2",
+							"gridColor": "#4A98E2",
+							"labelOffset": -10
+						}
+						],
+						"allLabels": [],
+						"balloon": {
+							"color": "#4A98E2"
+						},
+						"titles": [],
+						"dataProvider": [
+						{
+							"Issue": "Over Consumption",
+							"": "175"
+						},
+						{
+							"Issue": "Fish Farming",
+							"": "155"
+						},
+						{
+							"Issue": "Climate Change",
+							"": "95"
+						},
+						{
+							"Issue": "Pipelines",
+							"": "120"
+						},
+						{
+							"Issue": "Waste Water",
+							"": "75"
+						},
+						{
+							"Issue": "Human Development",
+							"": "110"
+						}
+						]
+					}
+					);
+				</script>
+				
+				<h3>Scope</h3>
+				<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
+				<img class="image main" data-position="center" src="images/problems2.png" alt="" />
+				<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
+				
+				<hr class="major" />
+			</div>
+		</section>
+
+
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	
+
+</body>
+</html>
