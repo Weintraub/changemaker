@@ -14,7 +14,7 @@
 <body class="is-preload">
 
 	<!-- Wrapper -->
-	<div id="wrapper"> 
+	<div id="wrapper">
 
 		<!-- Header -->
 		<header id="header" class="alt">
@@ -63,47 +63,47 @@
 
 				</style>
 				<div id="chartdiv"></div>
-				
+
 				<h3>Efforts</h3>
 				<p>The Kwikwetlem First Nations have contributed a great deal to this issue through the Wilson Farm Project, a restoration project to reverse the effects of water pollution and prevent future damage to these rivers and streams. Their work involves monitoring progress through methods such as fish and egg presence and water quality.</p>
-				<p>Currently, the Department of Fisheries Ontario is partnering with communities through recreational fisheries conservation partnership programs in order to monitor what is caught and enforce catch regulations (). By placing limits on the number of fish that can be caught, the population has a chance to spawn and regrow, and thus maintain a healthy size.</p>
-				<p>The Pacific Salmon Foundation (PSF) will also receive $1.2 million over three years through the CRF. With this funding, the PSF will be able to restore the aquatic ecosystems of Pacific wild salmon (and the myriad of species they support), as well as expand key salmon-bearing watersheds in British Columbia</p>
+				<p>Currently, the Department of Fisheries Ontario is partnering with communities through recreational fisheries conservation partnership programs in order to monitor what is caught and enforce catch regulations. By placing limits on the number of fish that can be caught, the population has a chance to spawn and regrow, and thus maintain a healthy size.</p>
+				<p>The Pacific Salmon Foundation (PSF) will also receive $1.2 million over three years through the CRF. With this funding, the PSF will be able to restore the aquatic ecosystems of Pacific wild salmon (and the myriad of species they support), as well as expand key salmon-bearing watersheds in British Columbia.</p>
 				<hr class="major" />
 				<h3>Future</h3>
 				<div class="slideshow-container">
 
 					<div class="mySlides fade">
 						<div class="numbertext">1 / 4</div>
-						<img src="http://www.pac.dfo-mpo.gc.ca/fm-gp/species-especes/salmon-saumon/sockeye-smonrouge/images/stocks.JPG" style="width:100%">
+						<img src="https://s3-eu-west-1.amazonaws.com/openreply-enidays/wp-content/uploads/2017/11/sockeye-salmon-cut2.jpg" style="width:100%">
 						<div style="background-color:gray" class="text">DFO continues to work with communities and partners to conserve and protect B.C. sockeye salmon</div>
 					</div>
 
 					<div class="mySlides fade">
 						<div class="numbertext">2 / 4</div>
-						<img src="https://images.fineartamerica.com/images-medium-large/spawning-sockeye-salmon-adams-river-david-nunuk.jpg" style="width:100%">
-						<div style="background-color:gray" class="text">Ashley this needs more pics and little one sentence captions pls</div>
+						<img src="https://media.giphy.com/media/B1yMUJfrmHQhG/giphy-downsized-large.gif" style="width:100%">
+						<div style="background-color:gray" class="text">Canada implemented the Wild Salmon Policy in 2018 as an assessment of conservation progress in B.C.</div>
 					</div>
 
 					<div class="mySlides fade">
 						<div class="numbertext">3 / 4</div>
-						<img src="https://images.fineartamerica.com/images-medium-large/spawning-sockeye-salmon-adams-river-david-nunuk.jpg" style="width:100%">
-						<div style="background-color:gray" class="text">Ashley this needs more pics and little one sentence captions pls</div>
+						<img src="images/Solutions cycle.png" style="width:100%">
+						<div style="background-color:gray" class="text">By placing affected fish under the Species at Risk Act, they are protected from commercial fisheries.</div>
 					</div>
 
 					<div class="mySlides fade">
 						<div class="numbertext">4 / 4</div>
-						<img src="https://images.fineartamerica.com/images-medium-large/spawning-sockeye-salmon-adams-river-david-nunuk.jpg" style="width:100%">
-						<div style="background-color:gray" class="text">Ashley this needs more pics and little one sentence captions pls</div>
+						<img src="https://www.watercanada.net/wp-content/uploads/2017/06/maxresdefault.jpg" style="width:100%">
+						<div style="background-color:gray" class="text">A $75 million Coastal Restoration Fund (CRF) was announced as part of the historic $1.5 billion Oceans Protection Plan.</div>
 					</div>
 
 				</div>
 				<br>
 
 				<div style="text-align:center">
-					<span class="dot"></span> 
-					<span class="dot"></span> 
-					<span class="dot"></span> 
-					<span class="dot"></span> 
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
 				</div>
 
 			</div>
@@ -209,14 +209,14 @@ chart.cursor.lineY.disabled = true;
 		var slides = document.getElementsByClassName("mySlides");
 		var dots = document.getElementsByClassName("dot");
 		for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";  
+			slides[i].style.display = "none";
 		}
 		slideIndex++;
-		if (slideIndex > slides.length) {slideIndex = 1}    
+		if (slideIndex > slides.length) {slideIndex = 1}
 			for (i = 0; i < dots.length; i++) {
 				dots[i].className = dots[i].className.replace(" active", "");
 			}
-			slides[slideIndex-1].style.display = "block";  
+			slides[slideIndex-1].style.display = "block";
 			dots[slideIndex-1].className += " active";
   						setTimeout(showSlides, 7000); // Change image every 2 seconds
   					}
